@@ -1,0 +1,28 @@
+:root,
+[data-theme="minimalist"] {
+  --bg: #ffffff;
+  --text: #24292f;
+  --font: 'Inter', sans-serif;
+  --spacing: 22px;
+}
+
+[data-theme="dark"] {
+  --bg: #181920;
+  --text: #fff;
+  --font: 'Merriweather', serif;
+  --spacing: 26px;
+}
+
+[data-theme="colorful"] {
+  --bg: #fff8e1;
+  --text: #e91e63;
+  --font: 'Pacifico', cursive;
+  --spacing: 30px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  transition: background 0.5s, color 0.5s, font-family 0.4s;
+}

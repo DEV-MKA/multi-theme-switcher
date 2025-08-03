@@ -1,0 +1,14 @@
+.switcher {
+  padding: 0.5em 1.2em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.45s, color 0.45s;
+  outline: none;
+}
+
+.switcher:focus {
+  border-color: #1976d2;
+}
